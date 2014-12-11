@@ -1,0 +1,26 @@
+// Import libraries
+
+@import "components/bourbon/bourbon";
+@import "components/_normalize.scss";
+@import "components/_base.scss";
+@import "components/_header.scss";
+@import "components/_home.scss";
+@import "components/_about.scss";
+@import "components/_portfolio.scss";
+@import "components/_blog.scss";
+@import "components/_contact.scss";
+@import "components/_responsive.scss";
+
+// Variables
+$width: 960px;
+$font-size-default: 16px;
+$h1: golden-ratio($font-size-default,3);
+$h2: golden-ratio($font-size-default,2);
+$color-cream: #E0CBB0;
+$color-darkOrange: #B2693E;
+$color-darkChocolate: #2A1E1E;
+$color-slateGray: #6A6054;
+$color-coffee: #8A6948;
+
+
+// Style rules

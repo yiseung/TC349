@@ -1,0 +1,53 @@
+/* About */
+
+.stitched {
+	width: 30%;
+	max-width: 500px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin: 0px 4% 2% 0px;
+	background: #fff;
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.3em;
+	border: 2px dashed #55345E;
+	border-radius: 10px;
+	box-shadow: 0 0 0 4px #fff, 2px 1px 6px 4px rgba(0, 0, 0, 0.8);
+	text-shadow: -1px -1px #aa3030;
+	font-weight: normal;
+	img {
+		border-radius: 10px;
+	}
+}
+
+
+.about_background {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	background: url("../img/background.png") no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+}
+
+div.about {
+	li {
+		font-family: Indie Flower, sans-serif;
+		font-size: 1.5em;
+		margin-bottom: 0.3em;
+		font-weight: bold;
+	}
+	li.name {
+		font-size: 2em;
+	}
+	p {
+		margin-bottom: 0.8em;
+		line-height: 140%;
+	}
+}
+
